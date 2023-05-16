@@ -599,18 +599,47 @@
                             Healthy, tasty and hassle-free meals are waiting for you. 
                             Start eating well today. You can cancel or pause anytime. And the first meal is on us!
                         </p>
-                        <form action="" class="cta-form">
+                        <form class="cta-form" name="omnifood" netlify>
                             <div class="form-control">
-                                <label for="fullname" class="margin-bottom-sm">Full name</label>
-                                <input type="text" title="fullname" id="fullname" placeholder="John Snow">
+                                <label 
+                                    for="fullname" 
+                                    class="margin-bottom-sm"
+                                >
+                                    Full name
+                                </label>
+                                <input 
+                                    type="text" 
+                                    title="fullname" 
+                                    id="fullname" 
+                                    name="fullname"
+                                    placeholder="John Snow"
+                                    required
+                                >
                             </div>
                             <div class="form-control">
-                                <label for="email" class="margin-bottom-sm">Email</label>
-                                <input type="email" title="email" id="email" placeholder="john@snow.com">
+                                <label 
+                                    for="email" 
+                                    class="margin-bottom-sm"
+                                >
+                                    Email
+                                </label>
+                                <input 
+                                    type="email" 
+                                    title="email" 
+                                    id="email" 
+                                    name="email"
+                                    placeholder="john@snow.com"
+                                    required
+                                >
                             </div>
                             <div class="form-control">
-                                <label for="" class="margin-bottom-sm">Where did you hear about us?</label>
-                                <select name="" id="" title="cta-option">
+                                <label 
+                                    for="cta-select" 
+                                    class="margin-bottom-sm"
+                                >
+                                    Where did you hear about us?
+                                </label>
+                                <select name="" id="cta-select" title="cta-option">
                                     <option value="" >Please select an option</option>
                                     <option value="">Friends and family</option>
                                     <option value="">YouTube</option>
